@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name templatesApp.controller:AboutCtrl
+ * @name templature.controller:AboutCtrl
  * @description
  * # AboutCtrl
- * Controller of the templatesApp
+ * Controller of the templature
  */
-angular.module('templatesApp')
+angular.module('templature')
   .controller('AboutCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',

@@ -1,4 +1,4 @@
-# Templates Store
+# Templature
 An eCommerce site for finding web templates for your site.
 
 

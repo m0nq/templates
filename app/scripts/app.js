@@ -25,6 +25,10 @@ angular.module('templature', [
         controller: 'MainCtrl',
         controllerAs: 'main'
       })
+      .when('/templates', {
+        templateUrl: 'views/templates.html',
+        controller: 'TemplatesCtrl'
+      })
       .when('/about', {
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl',

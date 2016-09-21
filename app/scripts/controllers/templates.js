@@ -1,5 +1,13 @@
 'use strict';
 
+/**
+ * @ngdoc function
+ * @name templature.controller:TemplatesCtrl
+ * @description
+ * # TemplatesCtrl
+ * Controller of the templature
+ */
+
 angular.module('templature.templates', ['ngRoute'])
 
 .config(['$routeProvider', function ($routeProvider) {

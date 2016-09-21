@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc overview
- * @name templatesApp
+ * @name templateStore
  * @description
  * # templatesApp
  *
  * Main module of the application.
  */
-angular
-  .module('templatesApp', [
+
+angular.module('templateStore', [
     'ngAnimate',
     'ngCookies',
     'ngResource',

@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name templature.controller:MainCtrl
+ * @name templatureApp.controller:MainCtrl
  * @description
  * # MainCtrl
  * Controller of the templature
  */
-angular.module('templature')
+angular.module('templatureApp')
   .controller('MainCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',

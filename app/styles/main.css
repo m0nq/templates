@@ -6990,3 +6990,18 @@ body {
   padding: 40px 15px;
   text-align: center;
 }
+
+.templates img{
+	width: 70%;
+	text-align: center;
+}
+
+.templates a {
+	width: 50%;
+	text-align: center;
+	margin: auto;
+}
+
+.templates .col-md-4 {
+	margin-bottom: 20px;
+}

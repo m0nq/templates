@@ -8,7 +8,7 @@
  * Controller of the templature
  */
 
-angular.module('templature.templates', ['ngRoute'])
+angular.module('templatureApp.templates', ['ngRoute'])
 
 .config(['$routeProvider', function ($routeProvider) {
   $routeProvider

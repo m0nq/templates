@@ -2,21 +2,21 @@
 
 /**
  * @ngdoc overview
- * @name templature
+ * @name templatureApp
  * @description
  * # templature
  *
  * Main module of the application.
  */
 
-angular.module('templature', [
+angular.module('templatureApp', [
     'ngAnimate',
     'ngCookies',
     'ngResource',
     'ngRoute',
     'ngSanitize',
     'ngTouch',
-    'templature.templates'
+    'templatureApp.templates'
   ])
   .config(function ($routeProvider) {
     $routeProvider

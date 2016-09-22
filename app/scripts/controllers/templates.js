@@ -22,9 +22,12 @@ angular.module('templatureApp.templates', ['ngRoute'])
 	});
 }])
 
-.controller('TemplatesCtrl', ['$scope', function ($scope) {
+.controller('TemplatesCtrl', ['$scope', '$http', function ($scope, $http) {
+  $http.get('json/templates.json').success(function (response) {
+    console.log(response.data);
+  });
 }])
 
 .controller('TemplateDetailsCtrl', ['$scope', function ($scope) {
-
+  console.log($scope);
 }]);

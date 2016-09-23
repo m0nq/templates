@@ -23,8 +23,8 @@ angular.module('templatureApp.templates', ['ngRoute'])
 }])
 
 .controller('TemplatesCtrl', ['$scope', '$http', function ($scope, $http) {
-  $http.get('json/templates.json').success(function (response) {
-    console.log(response.data);
+  $http.get('json/templates.json').success(function (data) {
+    $scope.templates = data;
   });
 }])
 

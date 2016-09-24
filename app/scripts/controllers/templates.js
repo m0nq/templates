@@ -29,11 +29,12 @@ angular.module('templatureApp.templates', ['ngRoute'])
 }])
 
 .controller('TemplateDetailsCtrl', ['$scope', '$http', '$routeParams', '$filter', function ($scope, $http, $routeParams, $filter) {
-	var templateId = $routeParams.templateId;
+	var templateId = $routeParams.templatesId;
 	$http.get('json/templates.json').success(function (data) {
     $scope.template = $filter('filter')(data, function (d) {
-    	return d.id === templateId;
-    })[0];
-		$scope.MainImage = $scope.template.images[0].name;
+    	return d.id === parseInt(templateId, 10);
+    });
+    console.log($scope.template);
+		// $scope.mainImage = $scope.template.images[0].name;
   });
 }]);
